@@ -3,14 +3,25 @@
       "icon": {
         "item": "minecraft:barrier"
       },
-      "title": "00",
+      "title": "Porter une tete de dragon sur la tete",
       "description": "a"
     },
     "parent": "bingo:team/team_init",
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:location"
+        "requirement": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "player": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:dragon_head"
+                  ]
+                }
+              }
+            }
+          }
+        }
       }
-    }
   }
   

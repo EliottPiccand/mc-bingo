@@ -1,0 +1,1 @@
+advancement grant @a[team=orange] only bingo:team/team_03

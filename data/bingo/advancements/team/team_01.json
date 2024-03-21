@@ -3,14 +3,30 @@
       "icon": {
         "item": "minecraft:barrier"
       },
-      "title": "01",
+      "title": "Tuer un snowgolem sur un cheval",
       "description": "desc00"
     },
     "parent": "bingo:team/team_00",
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:location"
+        "requirement": {
+          "trigger": "minecraft:player_killed_entity",
+          "conditions": {
+            "player": {
+              "vehicle": {
+                "type": "minecraft:horse"
+              }
+            },
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:snow_golem"
+                }
+              }
+            ]
+          }
+        }
       }
-    }
   }
   

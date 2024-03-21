@@ -3,13 +3,13 @@
       "icon": {
         "item": "minecraft:barrier"
       },
-      "title": "03",
+      "title": "Taper avec une laisse un joueur d'une autre équipe",
       "description": "desc00"
     },
     "parent": "bingo:team/team_02",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:location"
+        "trigger": "minecraft:impossible"
       }
     }
   }

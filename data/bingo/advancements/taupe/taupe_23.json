@@ -9,7 +9,7 @@
     "parent": "bingo:taupe/taupe_22",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:location"
+        "trigger": "minecraft:impossible"
       }
     }
   }

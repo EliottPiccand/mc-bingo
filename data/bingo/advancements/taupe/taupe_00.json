@@ -3,13 +3,13 @@
       "icon": {
         "item": "minecraft:barrier"
       },
-      "title": "00",
+      "title": "Réunion des taupes",
       "description": "a"
     },
     "parent": "bingo:taupe/taupe_init",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:location"
+        "trigger": "minecraft:impossible"
       }
     }
   }

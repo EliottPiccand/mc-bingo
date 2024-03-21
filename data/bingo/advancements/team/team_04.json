@@ -3,14 +3,17 @@
       "icon": {
         "item": "minecraft:barrier"
       },
-      "title": "04",
+      "title": "craft un lingot de netherite",
       "description": "desc00"
     },
     "parent": "bingo:team/team_03",
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:location"
+        "requirement": {
+          "trigger": "minecraft:recipe_crafted",
+          "conditions": {
+            "recipe_id": "minecraft:netherite_ingot"
+          }
+        }
       }
-    }
   }
   

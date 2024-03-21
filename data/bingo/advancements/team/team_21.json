@@ -9,7 +9,7 @@
     "parent": "bingo:team/team_20",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:location"
+        "trigger": "minecraft:impossible"
       }
     }
   }

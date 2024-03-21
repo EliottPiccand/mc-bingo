@@ -1,1 +1,0 @@
-execute as @a[nbt={Inventory:[{id:"minecraft:dragon_head",Slot:103b}]}] run advancement grant @s only bingo:team/team_00

@@ -3,14 +3,25 @@
       "icon": {
         "item": "minecraft:barrier"
       },
-      "title": "10",
+      "title": "Tuer une endermite",
       "description": "desc00"
     },
     "parent": "bingo:team/team_init",
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:location"
+        "requirement": {
+          "trigger": "minecraft:player_killed_entity",
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:endermite"
+                }
+              }
+            ]
+          }
+        }
       }
-    }
   }
   

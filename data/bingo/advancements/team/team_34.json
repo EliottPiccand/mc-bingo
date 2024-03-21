@@ -9,7 +9,7 @@
     "parent": "bingo:team/team_33",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:location"
+        "trigger": "minecraft:impossible"
       }
     }
   }
