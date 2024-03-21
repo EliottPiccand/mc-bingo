@@ -1,0 +1,16 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:barrier"
+      },
+      "title": "20",
+      "description": "c"
+    },
+    "parent": "bingo:taupe/taupe_init",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location"
+      }
+    }
+  }
+  

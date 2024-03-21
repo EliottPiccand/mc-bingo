@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "title": "Taupe",
+    "description": "Voici la grille de votre équipe",
+    "background": "minecraft:textures/block/netherrack.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location"
+    }
+  }
+}
