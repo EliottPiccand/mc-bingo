@@ -1,1 +1,0 @@
-execute at @a[tag=taupe, team=orange] if entity @a[tag=taupe, team=bleu, distance=..30] if entity @a[tag=taupe, team=rose, distance=..30] if entity @a[tag=taupe, team=vert, distance=..30] run say yess
