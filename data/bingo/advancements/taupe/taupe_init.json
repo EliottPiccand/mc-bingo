@@ -4,7 +4,7 @@
       "item": "minecraft:spyglass"
     },
     "title": "Taupe",
-    "description": "Voici la grille de votre équipe",
+    "description": "Voici la grille des taupes",
     "background": "minecraft:textures/block/netherrack.png"
   },
   "criteria": {
