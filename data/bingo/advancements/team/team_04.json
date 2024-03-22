@@ -1,22 +1,21 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:netherite_ingot"
-      },
-      "title": "Forgeron",
-      "description": "Votre équipe doit craft un lingot de netherite",
-      "show_toast": true,
-      "announce_to_chat": false,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_ingot"
     },
-    "parent": "bingo:team/team_03",
-    "criteria": {
-        "requirement": {
-          "trigger": "minecraft:recipe_crafted",
-          "conditions": {
-            "recipe_id": "minecraft:netherite_ingot"
-          }
-        }
+    "title": "Forgeron",
+    "description": "Votre équipe doit craft un lingot de netherite",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "bingo:team/team_03",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_ingot"
       }
+    }
   }
-  
+}

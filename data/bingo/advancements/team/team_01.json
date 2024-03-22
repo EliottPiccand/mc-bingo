@@ -1,35 +1,34 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:carved_pumpkin"
-      },
-      "title": "Grand chevalier",
-      "description": "Un joueur de votre équipe doir tuer un golem de neige à cheval",
-      "show_toast": true,
-      "announce_to_chat": false,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
     },
-    "parent": "bingo:team/team_00",
-    "criteria": {
-        "requirement": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-            "player": {
-              "vehicle": {
-                "type": "minecraft:horse"
-              }
-            },
-            "entity": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "type": "minecraft:snow_golem"
-                }
-              }
-            ]
+    "title": "Grand chevalier",
+    "description": "Un joueur de votre équipe doir tuer un golem de neige à cheval",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "bingo:team/team_00",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "minecraft:horse"
           }
-        }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:snow_golem"
+            }
+          }
+        ]
       }
+    }
   }
-  
+}

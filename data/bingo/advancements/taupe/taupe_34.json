@@ -1,16 +1,15 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:barrier"
-      },
-      "title": "34",
-      "description": "desc00"
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
     },
-    "parent": "bingo:taupe/taupe_33",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
-      }
+    "title": "34",
+    "description": "desc00"
+  },
+  "parent": "bingo:taupe/taupe_33",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
   }
-  
+}

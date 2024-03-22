@@ -1,5 +1,5 @@
 {
-  "parent": "bingo:team/team_04",
+  "parent": "bingo:taupe/taupe_04",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location"

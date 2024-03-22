@@ -1,19 +1,18 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:golden_apple"
-      },
-      "title": "Médecin professionel",
-      "description": "Un joueur de votre équipe doit soigner un zombie villageois",
-      "show_toast": true,
-      "announce_to_chat": false,
-      "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple"
     },
-    "parent": "bingo:team/team_01",
-    "criteria": {
-        "requirement": {
-          "trigger": "minecraft:cured_zombie_villager"
-        }
-      }
+    "title": "Médecin professionel",
+    "description": "Un joueur de votre équipe doit soigner un zombie villageois",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "bingo:team/team_01",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:cured_zombie_villager"
+    }
   }
-  
+}

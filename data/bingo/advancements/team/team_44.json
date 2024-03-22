@@ -1,16 +1,15 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:barrier"
-      },
-      "title": "44",
-      "description": "desc00"
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
     },
-    "parent": "bingo:team/team_43",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
-      }
+    "title": "44",
+    "description": "desc00"
+  },
+  "parent": "bingo:team/team_43",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
   }
-  
+}
