@@ -6,7 +6,7 @@
       "title": "20",
       "description": "c"
     },
-    "parent": "bingo:team/team_init",
+    "parent": "bingo:team/team_root",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

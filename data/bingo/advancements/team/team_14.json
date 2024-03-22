@@ -1,16 +1,19 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:barrier"
+        "item": "minecraft:stick"
       },
-      "title": "14",
-      "description": "desc00"
+      "title": "Passionement, à la folie",
+      "description": "Remplir un inventaire de sticks (37 slots)",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
     "parent": "bingo:team/team_13",
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
+        "requirement": {
+          "trigger": "minecraft:impossible"
+        }
       }
-    }
   }
   

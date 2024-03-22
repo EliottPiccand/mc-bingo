@@ -1,12 +1,15 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:barrier"
+        "item": "minecraft:dragon_head"
       },
-      "title": "Porter une tete de dragon sur la tete",
-      "description": "a"
+      "title": "Belle Bouille",
+      "description": "Un joueur de votre équipe doit porter une tête de dragon",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "parent": "bingo:team/team_init",
+    "parent": "bingo:team/team_root",
     "criteria": {
         "requirement": {
           "trigger": "minecraft:inventory_changed",

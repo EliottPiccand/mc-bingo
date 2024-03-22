@@ -1,0 +1,2 @@
+execute store result storage minecraft:bingo stick_count int 1 run clear @s minecraft:stick 0
+execute if data storage minecraft:bingo {stick_count:2368} run advancement grant @s only bingo:team/team_14

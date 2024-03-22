@@ -1,16 +1,53 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:barrier"
+        "item": "minecraft:firework_rocket"
       },
-      "title": "13",
-      "description": "desc00"
+      "title": "Explosion coloré",
+      "description": "Votre équipe doit tuer un creeper à l'aide d'une arbalette chargé d'un feu d'artifice",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
     "parent": "bingo:team/team_12",
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
+        "requirement": {
+          "trigger": "minecraft:player_killed_entity",
+          "conditions": {
+            "player": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": [
+                        "minecraft:crossbow"
+                      ]
+                    }
+                  }
+                }
+              }
+            ],
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:creeper"
+                }
+              }
+            ],
+            "killing_blow": {
+              "tags": [
+                {
+                  "id": "minecraft:is_explosion",
+                  "expected": true
+                }
+              ]
+            }
+          }
+        }
       }
-    }
   }
   

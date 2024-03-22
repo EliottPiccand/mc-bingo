@@ -1,16 +1,28 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:barrier"
+        "item": "minecraft:anvil"
       },
-      "title": "12",
-      "description": "desc00"
+      "title": "Test de confiance",
+      "description": "Un joueur de votre équipe doit se prendre une enclume sur la tête et perdre 9 coeurs",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
     "parent": "bingo:team/team_11",
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
+        "requirement": {
+          "trigger": "minecraft:entity_hurt_player",
+          "conditions": {
+            "player": [],
+            "damage": {
+              "taken": 18,
+              "source_entity": {
+                "type": "minecraft:falling_block"
+              }
+            }
+          }
+        }
       }
-    }
   }
   

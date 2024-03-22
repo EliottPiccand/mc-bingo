@@ -1,10 +1,13 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:barrier"
+        "item": "minecraft:carved_pumpkin"
       },
-      "title": "Tuer un snowgolem sur un cheval",
-      "description": "desc00"
+      "title": "Grand chevalier",
+      "description": "Un joueur de votre équipe doir tuer un golem de neige à cheval",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
     "parent": "bingo:team/team_00",
     "criteria": {

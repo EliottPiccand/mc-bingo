@@ -1,12 +1,15 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:barrier"
+        "item": "minecraft:ender_pearl"
       },
-      "title": "Tuer une endermite",
-      "description": "desc00"
+      "title": "Spawnkill",
+      "description": "Votre équipe doit tuer une endermite",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "parent": "bingo:team/team_init",
+    "parent": "bingo:team/team_root",
     "criteria": {
         "requirement": {
           "trigger": "minecraft:player_killed_entity",

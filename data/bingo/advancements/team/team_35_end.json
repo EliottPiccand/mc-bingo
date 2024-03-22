@@ -1,0 +1,9 @@
+{
+    "parent": "bingo:team/team_34",
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:location"
+        }
+      }
+  }
+  
