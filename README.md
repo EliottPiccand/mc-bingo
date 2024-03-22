@@ -5,7 +5,7 @@ Pour démarrer la partie, utilisez la commande `/function bingo:start`.
 ## Installation
 - `server.properties` 
 ```yaml
-gamemode=adventure
+force-gamemode=false
 pvp=true
 spawn-protection=0
 ```
