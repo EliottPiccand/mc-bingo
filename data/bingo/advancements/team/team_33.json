@@ -1,15 +1,198 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:fishing_rod"
+      },
+      "title": "Pêche nature et tradition",
+        "description": "Votre équipe obtient 30 objets par la pêche",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
     },
-    "title": "33",
-    "description": "desc00"
-  },
-  "parent": "bingo:team/team_32",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
+    "parent": "bingo:team/team_32",
+    "criteria": {
+      "1": {
+          "trigger": "minecraft:impossible"
+        },
+        "2": {
+          "trigger": "minecraft:impossible"
+        },
+        "3": {
+          "trigger": "minecraft:impossible"
+        },
+        "4": {
+          "trigger": "minecraft:impossible"
+        },
+        "5": {
+          "trigger": "minecraft:impossible"
+        },
+        "6": {
+          "trigger": "minecraft:impossible"
+        },
+        "7": {
+          "trigger": "minecraft:impossible"
+        },
+        "8": {
+          "trigger": "minecraft:impossible"
+        },
+        "9": {
+          "trigger": "minecraft:impossible"
+        },
+        "10": {
+          "trigger": "minecraft:impossible"
+        },
+        "11": {
+          "trigger": "minecraft:impossible"
+        },
+        "12": {
+          "trigger": "minecraft:impossible"
+        },
+        "13": {
+          "trigger": "minecraft:impossible"
+        },
+        "14": {
+          "trigger": "minecraft:impossible"
+        },
+        "15": {
+          "trigger": "minecraft:impossible"
+        },
+        "16": {
+          "trigger": "minecraft:impossible"
+        },
+        "17": {
+          "trigger": "minecraft:impossible"
+        },
+        "18": {
+          "trigger": "minecraft:impossible"
+        },
+        "19": {
+          "trigger": "minecraft:impossible"
+        },
+        "20": {
+          "trigger": "minecraft:impossible"
+        },
+        "21": {
+          "trigger": "minecraft:impossible"
+        },
+        "22": {
+          "trigger": "minecraft:impossible"
+        },
+        "23": {
+          "trigger": "minecraft:impossible"
+        },
+        "24": {
+          "trigger": "minecraft:impossible"
+        },
+        "25": {
+          "trigger": "minecraft:impossible"
+        },
+        "26": {
+          "trigger": "minecraft:impossible"
+        },
+        "27": {
+          "trigger": "minecraft:impossible"
+        },
+        "28": {
+          "trigger": "minecraft:impossible"
+        },
+        "29": {
+          "trigger": "minecraft:impossible"
+        },
+        "30": {
+          "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+      [
+          "1"
+      ],
+      [
+          "2"
+      ],
+      [
+          "3"
+      ],
+      [
+          "4"
+      ],
+      [
+          "5"
+      ],
+      [
+          "6"
+      ],
+      [
+          "7"
+      ],
+      [
+          "8"
+      ],
+      [
+          "9"
+      ],
+      [
+          "10"
+      ],
+      [
+          "11"
+      ],
+      [
+          "12"
+      ],
+      [
+          "13"
+      ],
+      [
+          "14"
+      ],
+      [
+          "15"
+      ],
+      [
+          "16"
+      ],
+      [
+          "17"
+      ],
+      [
+          "18"
+      ],
+      [
+          "19"
+      ],
+      [
+          "20"
+      ],
+      [
+          "21"
+      ],
+      [
+          "22"
+      ],
+      [
+          "23"
+      ],
+      [
+          "24"
+      ],
+      [
+          "25"
+      ],
+      [
+          "26"
+      ],
+      [
+          "27"
+      ],
+      [
+          "28"
+      ],
+      [
+          "29"
+      ],
+      [
+          "30"
+      ]
+    ]
   }
-}
+  

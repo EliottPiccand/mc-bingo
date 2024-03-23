@@ -25,8 +25,7 @@ difficulty hard
 time set 6000
 weather clear
 
-# Reset goals
-scoreboard players reset @a cake_eaten
+# TODO copy every scoreboard and storage stuff from load
 advancement revoke @a everything
 
 # Taupe announcement

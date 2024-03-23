@@ -1,15 +1,18 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:crafting_table"
+      },
+      "title": "Esprit d'équipe",
+      "description": "La majorité de l'équipe a crafté une bannière de votre couleur",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "30",
-    "description": "d"
-  },
-  "parent": "bingo:team/team_root",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "parent": "bingo:team/team_root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
     }
   }
-}

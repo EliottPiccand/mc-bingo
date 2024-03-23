@@ -26,6 +26,37 @@ setblock -11 313 4 birch_wall_hanging_sign[facing=east]{front_text:{color:"gray"
 
 setworldspawn 0 312 0
 
+#creates all scoreboards
+scoreboard objectives remove calculator
+scoreboard objectives add calculator dummy
+scoreboard objectives remove cake_eaten
+scoreboard objectives add cake_eaten minecraft.custom:eat_cake_slice
+scoreboard objectives remove craft_banner_bleu
+scoreboard objectives add craft_banner_bleu minecraft.crafted:light_blue_banner
+scoreboard objectives remove craft_banner_orange
+scoreboard objectives add craft_banner_orange minecraft.crafted:orange_banner
+scoreboard objectives remove craft_banner_rose
+scoreboard objectives add craft_banner_rose minecraft.crafted:pink_banner
+scoreboard objectives remove craft_banner_vert
+scoreboard objectives add craft_banner_vert minecraft.crafted:lime_banner
+
+#debugging
+scoreboard objectives setdisplay sidebar craft_banner_bleu
+
+#creates all storages
+data modify storage minecraft:bingo root.team_14.stick_counter set value 0
+data modify storage minecraft:bingo root.team_21.wolf_tamed_bleu set value 0
+data modify storage minecraft:bingo root.team_21.wolf_tamed_orange set value 0
+data modify storage minecraft:bingo root.team_21.wolf_tamed_rose set value 0
+data modify storage minecraft:bingo root.team_21.wolf_tamed_vert set value 0
+data modify storage minecraft:bingo root.team_32.shulkers_killed_bleu set value 0
+data modify storage minecraft:bingo root.team_32.shulkers_killed_orange set value 0
+data modify storage minecraft:bingo root.team_32.shulkers_killed_rose set value 0
+data modify storage minecraft:bingo root.team_32.shulkers_killed_vert set value 0
+
+#reset goals
+advancement revoke @a everything
+
 # Ensure this function is only run once
 setblock 0 -59 0 bedrock replace
 

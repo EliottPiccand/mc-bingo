@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:fishing_rod_hooked"
+        }
+    },
+    "rewards": {
+        "function": "bingo:team/validate_team_33"
+      }
+  }
+  
