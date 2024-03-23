@@ -1,0 +1,12 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:enchanted_item",
+        "conditions": {
+          "levels": 3
+        }
+      }
+    },
+    "rewards": {}
+  }
+  

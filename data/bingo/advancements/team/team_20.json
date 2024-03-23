@@ -1,15 +1,22 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+          },
+          "title": "Enchanteur",
+          "description": "Votre équipe doit enchanter un objet avec 30 niveaux",
+          "show_toast": true,
+          "announce_to_chat": false,
+          "hidden": false
     },
-    "title": "20",
-    "description": "c"
-  },
-  "parent": "bingo:team/team_root",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
+    "parent": "bingo:team/team_root",
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:enchanted_item",
+          "conditions": {
+            "levels": 3
+          }
+        }
+      }
   }
-}
+  
