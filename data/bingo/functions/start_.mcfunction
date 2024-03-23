@@ -18,6 +18,7 @@ kill @e[type=item,nbt={Item:{id:"minecraft:pink_banner"}}]
 
 # Update gamemodes
 gamemode survival @a[team=!spec]
+defaultgamemode spectator
 difficulty hard
 
 # Reset time & weather
