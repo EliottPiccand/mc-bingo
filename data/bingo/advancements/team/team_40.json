@@ -1,11 +1,14 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
-    },
-    "title": "40",
-    "description": "e"
-  },
+    "display": {
+        "icon": {
+          "item": "minecraft:cauldron"
+        },
+        "title": "Drôle de soupe",
+            "description": "La majorité de l'équipe doit se mettre dans le même chaudron dans le Nether",
+            "show_toast": true,
+            "announce_to_chat": false,
+            "hidden": false
+      },
   "parent": "bingo:team/team_root",
   "criteria": {
     "requirement": {

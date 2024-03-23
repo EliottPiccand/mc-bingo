@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "team": "vert"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+  "rewards": {
+    "function": "bingo:team/validate_team_34_vert"
+  }
+}

@@ -39,9 +39,11 @@ scoreboard objectives remove craft_banner_rose
 scoreboard objectives add craft_banner_rose minecraft.crafted:pink_banner
 scoreboard objectives remove craft_banner_vert
 scoreboard objectives add craft_banner_vert minecraft.crafted:lime_banner
+scoreboard objectives remove kill_hash
+scoreboard objectives add kill_hash dummy
 
 #debugging
-scoreboard objectives setdisplay sidebar craft_banner_bleu
+scoreboard objectives setdisplay sidebar kill_hash
 
 #creates all storages
 data modify storage minecraft:bingo root.team_14.stick_counter set value 0
