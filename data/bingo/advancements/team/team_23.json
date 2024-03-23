@@ -1,15 +1,18 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:brewing_stand"
+      },
+      "title": "Sous stéroïdes",
+      "description": "La majorité de l'équipe est sous effet de Speed et Jumpboost",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "23",
-    "description": "desc00"
-  },
-  "parent": "bingo:team/team_22",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "parent": "bingo:team/team_22",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
     }
   }
-}

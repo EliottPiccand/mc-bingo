@@ -1,15 +1,18 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:bedrock"
+      },
+      "title": "Réunion de crise",
+      "description": "La majorité de l'équipe doit se retrouver sur le toit du Nether",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "22",
-    "description": "desc00"
-  },
-  "parent": "bingo:team/team_21",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "parent": "bingo:team/team_21",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
     }
   }
-}

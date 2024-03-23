@@ -4,5 +4,13 @@
     "description": {
       "text": "Minecraft Bingo"
     }
-  }
+  },
+   "filter": {
+      "block": [
+         {
+            "namespace": "^minecraft$",
+            "path": "^advancements/.*"
+         }
+      ]
+   }
 }

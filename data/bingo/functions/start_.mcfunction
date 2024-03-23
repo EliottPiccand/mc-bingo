@@ -24,5 +24,9 @@ difficulty hard
 time set 6000
 weather clear
 
+# Reset goals
+scoreboard players reset @a cake_eaten
+advancement revoke @a everything
+
 # Taupe announcement
 schedule function bingo:chose_taupes 3s

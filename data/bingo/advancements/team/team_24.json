@@ -1,15 +1,18 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:cake"
+      },
+      "title": "Joyeux anniversaire",
+      "description": "La majorité de l'équipe a mangé une part de gâteau",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "24",
-    "description": "desc00"
-  },
-  "parent": "bingo:team/team_23",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "parent": "bingo:team/team_23",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
     }
   }
-}

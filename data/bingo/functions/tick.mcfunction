@@ -1,9 +1,12 @@
 
 # Lance les detections de chaque bingo taupe
-function bingo:detect_taupe/detect_taupe_00
+function bingo:taupe/detect_taupe_00
 
 # Lance les detections de chaque bingo equipe
-execute as @a run function bingo:detect_team/detect_team_14
+execute as @a run function bingo:team/detect_team_14
+function bingo:team/detect_team_22
+function bingo:team/detect_team_23
+function bingo:team/detect_team_24
 
 # Assure que chaque achievement est commun aux équipes
 execute if entity @a[tag=taupe, advancements={bingo:taupe/taupe_00=true}] run advancement grant @a[tag=taupe] only bingo:taupe/taupe_00

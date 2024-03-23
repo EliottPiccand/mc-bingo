@@ -1,0 +1,2 @@
+execute store result storage minecraft:bingo root.team_14.stick_counter int 1 run clear @s minecraft:stick 0
+execute if data storage minecraft:bingo {root:{team_14:{stick_counter:2368}}} run advancement grant @s only bingo:team/team_14

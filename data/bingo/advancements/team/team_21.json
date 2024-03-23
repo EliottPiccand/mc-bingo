@@ -1,15 +1,24 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "title": "Amour canin",
+        "description": "Votre équipe doit apprivoiser 3 chiens",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
     },
-    "title": "21",
-    "description": "desc00"
-  },
-  "parent": "bingo:team/team_20",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "parent": "bingo:team/team_20",
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        },
+        "2": {
+            "trigger": "minecraft:impossible"
+        },
+        "3": {
+            "trigger": "minecraft:impossible"
+        }
     }
-  }
 }

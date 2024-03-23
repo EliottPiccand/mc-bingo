@@ -45,6 +45,6 @@
     }
   },
   "rewards": {
-    "function": "bingo:detect_team/validate_team_03_vert"
+    "function": "bingo:team/validate_team_03_vert"
   }
 }

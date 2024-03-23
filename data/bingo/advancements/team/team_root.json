@@ -5,7 +5,7 @@
     },
     "title": "Bingo",
     "description": "Voici la grille de votre équipe",
-    "background": "minecraft:textures/block/stone.png",
+    "background": "minecraft:textures/block/oak_log.png",
     "show_toast": false,
     "announce_to_chat": false,
     "frame": "goal"
