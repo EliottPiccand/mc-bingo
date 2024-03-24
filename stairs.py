@@ -60,35 +60,39 @@ with open("tmp.txt", "w") as file_tmp:
 
     for stair in stairs:
         
-        data = {
-            "criteria": {
-                "requirement": {
-                    "trigger": "minecraft:recipe_crafted",
-                    "conditions": {
-                        "recipe_id": f"minecraft:{stair}"
-                    }
-                }
-            },
-            "rewards": {
-                "function": f"bingo:team/validate_team_43_{stair}"
-            }
-        }
+        # data = {
+        #     "criteria": {
+        #         "requirement": {
+        #             "trigger": "minecraft:recipe_crafted",
+        #             "conditions": {
+        #                 "recipe_id": f"minecraft:{stair}"
+        #             }
+        #         }
+        #     },
+        #     "rewards": {
+        #         "function": f"bingo:team/validate_team_43_{stair}"
+        #     }
+        # }
 
-        with open(f"data/bingo/advancements/detection_team_43/detection_team_43_{stair}.json", "w") as file:
-            dump(data, file, indent=4)
+        # with open(f"data/bingo/advancements/detection_team_43/detection_team_43_{stair}.json", "w") as file:
+        #     dump(data, file, indent=4)
 
-        with open(f"data/bingo/functions/team/validate_team_43_{stair}.mcfunction", "w") as file:
-            lines = [
-                f"execute if entity @s[team=bleu] run data modify storage minecraft:bingo root.team_43.{stair}_bleu set value 1\n",
-                f"execute if entity @s[team=orange] run data modify storage minecraft:bingo root.team_43.{stair}_orange set value 1\n",
-                f"execute if entity @s[team=rose] run data modify storage minecraft:bingo root.team_43.{stair}_rose set value 1\n",
-                f"execute if entity @s[team=vert] run data modify storage minecraft:bingo root.team_43.{stair}_vert set value 1\n",
-                "function bingo:team/validate_team_43",
-            ]
-            file.writelines(lines)
+        # with open(f"data/bingo/functions/team/validate_team_43_{stair}.mcfunction", "w") as file:
+        #     lines = [
+        #         f"execute if entity @s[team=bleu] run data modify storage minecraft:bingo root.team_43.{stair}_bleu set value 1\n",
+        #         f"execute if entity @s[team=orange] run data modify storage minecraft:bingo root.team_43.{stair}_orange set value 1\n",
+        #         f"execute if entity @s[team=rose] run data modify storage minecraft:bingo root.team_43.{stair}_rose set value 1\n",
+        #         f"execute if entity @s[team=vert] run data modify storage minecraft:bingo root.team_43.{stair}_vert set value 1\n",
+        #         "function bingo:team/validate_team_43",
+        #     ]
+        #     file.writelines(lines)
     
-        file_tmp.write(f"data modify storage minecraft:bingo root.team_43.{stair}_vert set value 0\n")
-        file_tmp.write(f"data modify storage minecraft:bingo root.team_43.{stair}_bleu set value 0\n")
-        file_tmp.write(f"data modify storage minecraft:bingo root.team_43.{stair}_orange set value 0\n")
-        file_tmp.write(f"data modify storage minecraft:bingo root.team_43.{stair}_rose set value 0\n")
+        # file_tmp.write(f"data modify storage minecraft:bingo root.team_43.{stair}_vert set value 0\n")
+        # file_tmp.write(f"data modify storage minecraft:bingo root.team_43.{stair}_bleu set value 0\n")
+        # file_tmp.write(f"data modify storage minecraft:bingo root.team_43.{stair}_orange set value 0\n")
+        # file_tmp.write(f"data modify storage minecraft:bingo root.team_43.{stair}_rose set value 0\n")
 
+        # file_tmp.write(f"advancement revoke @s only bingo:detection_team_43/detection_team_43_{stair}\n")
+
+        for team in ("vert", "orange", "bleu", "rose"):
+            file_tmp.write(f"execute if entity @s[team={team}] if data storage minecraft:bingo" + " {root:{team_43:{" + f"{stair}_{team}" + ":1}}} run scoreboard players add input1 calculator 1\n")
