@@ -11,13 +11,7 @@
     },
     "parent": "bingo:team/team_20",
     "criteria": {
-        "1": {
-            "trigger": "minecraft:impossible"
-        },
-        "2": {
-            "trigger": "minecraft:impossible"
-        },
-        "3": {
+        "requirement": {
             "trigger": "minecraft:impossible"
         }
     }

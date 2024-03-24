@@ -25,8 +25,8 @@ difficulty hard
 time set 6000
 weather clear
 
-# TODO copy every scoreboard and storage stuff from load
-advancement revoke @a everything
+# Reset goals
+function bingo:reset_goals
 
 # Taupe announcement
 schedule function bingo:chose_taupes 3s

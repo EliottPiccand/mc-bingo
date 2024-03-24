@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:tinted_glass"
+            }
+        }
+      },
+    "rewards": {
+        "function": "bingo:team/validate_team_31_tint"
+      }
+  }
+  

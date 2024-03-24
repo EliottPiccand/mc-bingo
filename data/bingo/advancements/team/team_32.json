@@ -1,47 +1,18 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:shulker_box"
+    "display": {
+        "icon": {
+            "item": "minecraft:shulker_box"
+        },
+        "title": "Faux cube",
+        "description": "Votre équipe doit tuer 5 shulkers",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
     },
-    "title": "Faux cube",
-      "description": "Votre équipe doit tuer 5 shulkers",
-      "show_toast": true,
-      "announce_to_chat": false,
-      "hidden": false
-  },
-  "parent": "bingo:team/team_31",
-  "criteria": {
-    "1": {
-        "trigger": "minecraft:impossible"
-      },
-      "2": {
-        "trigger": "minecraft:impossible"
-      },
-      "3": {
-        "trigger": "minecraft:impossible"
-      },
-      "4": {
-        "trigger": "minecraft:impossible"
-      },
-      "5": {
-        "trigger": "minecraft:impossible"
-      }
-  },
-  "requirements": [
-    [
-        "1"
-    ],
-    [
-        "2"
-    ],
-    [
-        "3"
-    ],
-    [
-        "4"
-    ],
-    [
-        "5"
-    ]
-  ]
+    "parent": "bingo:team/team_31",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
 }

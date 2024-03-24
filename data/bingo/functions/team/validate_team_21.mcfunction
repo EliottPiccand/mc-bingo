@@ -11,9 +11,6 @@ execute if entity @s[team=vert] store result score input1 calculator run data ge
 scoreboard players operation input1 calculator += input2 calculator
 
 #update the advancement
-execute if score input1 calculator matches 1.. run advancement grant @s only bingo:team/team_21 1
-execute if score input1 calculator matches 2.. run advancement grant @s only bingo:team/team_21 1
-execute if score input1 calculator matches 2.. run advancement grant @s only bingo:team/team_21 2
 execute if score input1 calculator matches 3.. run advancement grant @s only bingo:team/team_21
 
 #update the storage

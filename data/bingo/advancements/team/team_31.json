@@ -1,53 +1,18 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:amethyst_shard"
+    "display": {
+        "icon": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "title": "Utilité multiple",
+        "description": "Votre équipe doit crafter les 4 objets dont la recette contient de l'Amethyste",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
     },
-    "title": "Utilité multiple",
-      "description": "Votre équipe doit crafter les 4 objets dont la recette contient de l'Amethyste",
-      "show_toast": true,
-      "announce_to_chat": false,
-      "hidden": false
-  },
-  "parent": "bingo:team/team_30",
-  "criteria": {
-    "1": {
-        "trigger": "minecraft:recipe_crafted",
-        "conditions": {
-            "recipe_id": "minecraft:amethyst_block"
-        }
-    },
-    "2": {
-        "trigger": "minecraft:recipe_crafted",
-        "conditions": {
-            "recipe_id": "minecraft:calibrated_sculk_sensor"
-        }
-    },
-    "3": {
-        "trigger": "minecraft:recipe_crafted",
-        "conditions": {
-            "recipe_id": "minecraft:spyglass"
-        }
-    },
-    "4": {
-        "trigger": "minecraft:recipe_crafted",
-        "conditions": {
-            "recipe_id": "minecraft:tinted_glass"
+    "parent": "bingo:team/team_30",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
         }
     }
-},
-"requirements": [
-    [
-        "1"
-    ],
-    [
-        "2"
-    ],
-    [
-        "3"
-    ],
-    [
-        "4"
-    ]
-]
 }

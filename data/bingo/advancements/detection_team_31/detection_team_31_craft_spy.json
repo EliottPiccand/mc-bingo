@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:spyglass"
+            }
+        }
+      },
+    "rewards": {
+        "function": "bingo:team/validate_team_31_spy"
+      }
+  }
+  
