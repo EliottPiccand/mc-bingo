@@ -1,11 +1,14 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:barrier"
+        "item": "minecraft:chorus_fruit"
+      },
+      "title": "Déphasé",
+          "description": "Votre équipe doit manger un chorus fruit dans chaque dimension",
+          "show_toast": true,
+          "announce_to_chat": false,
+          "hidden": false
     },
-    "title": "42",
-    "description": "desc00"
-  },
   "parent": "bingo:team/team_41",
   "criteria": {
     "requirement": {

@@ -1,3 +1,6 @@
+# End game goals check
+function bingo:team/detect_team_10
+
 gamemode spectator @a
 tp @a @e[tag=SpawnHeightCheck,limit=1]
 

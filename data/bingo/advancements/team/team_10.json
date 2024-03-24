@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:totem_of_undying"
     },
-    "title": "Spawnkill",
-    "description": "Votre équipe doit tuer une endermite",
+    "title": "Killers",
+    "description": "Votre équipe est celle avec le plus de kills à la fin de la partie",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": false
@@ -12,18 +12,7 @@
   "parent": "bingo:team/team_root",
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:endermite"
-            }
-          }
-        ]
-      }
+      "trigger": "minecraft:impossible"
     }
   }
 }

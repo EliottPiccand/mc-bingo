@@ -14,6 +14,10 @@ scoreboard objectives add craft_banner_vert minecraft.crafted:lime_banner
 scoreboard objectives remove kill_hash
 scoreboard objectives add kill_hash dummy
 
+scoreboard objectives remove kills
+scoreboard objectives add kills minecraft.killed:player
+scoreboard objectives setdisplay list kills
+
 #debugging
 scoreboard objectives setdisplay sidebar kill_hash
 
@@ -43,10 +47,22 @@ data modify storage minecraft:bingo root.team_32.shulkers_killed_bleu set value 
 data modify storage minecraft:bingo root.team_32.shulkers_killed_orange set value 0
 data modify storage minecraft:bingo root.team_32.shulkers_killed_rose set value 0
 data modify storage minecraft:bingo root.team_32.shulkers_killed_vert set value 0
-data modify storage minecraft:bingo root.team_32.fish_caught_bleu set value 0
-data modify storage minecraft:bingo root.team_32.fish_caught_orange set value 0
-data modify storage minecraft:bingo root.team_32.fish_caught_rose set value 0
-data modify storage minecraft:bingo root.team_32.fish_caught_vert set value 0
+data modify storage minecraft:bingo root.team_33.fish_caught_bleu set value 0
+data modify storage minecraft:bingo root.team_33.fish_caught_orange set value 0
+data modify storage minecraft:bingo root.team_33.fish_caught_rose set value 0
+data modify storage minecraft:bingo root.team_33.fish_caught_vert set value 0
+data modify storage minecraft:bingo root.team_42.end_bleu set value 0
+data modify storage minecraft:bingo root.team_42.end_orange set value 0
+data modify storage minecraft:bingo root.team_42.end_rose set value 0
+data modify storage minecraft:bingo root.team_42.end_vert set value 0
+data modify storage minecraft:bingo root.team_42.nether_bleu set value 0
+data modify storage minecraft:bingo root.team_42.nether_orange set value 0
+data modify storage minecraft:bingo root.team_42.nether_rose set value 0
+data modify storage minecraft:bingo root.team_42.nether_vert set value 0
+data modify storage minecraft:bingo root.team_42.overworld_bleu set value 0
+data modify storage minecraft:bingo root.team_42.overworld_orange set value 0
+data modify storage minecraft:bingo root.team_42.overworld_rose set value 0
+data modify storage minecraft:bingo root.team_42.overworld_vert set value 0
 data modify storage minecraft:bingo root.team_43.oak_stairs_vert set value 0
 data modify storage minecraft:bingo root.team_43.oak_stairs_bleu set value 0
 data modify storage minecraft:bingo root.team_43.oak_stairs_orange set value 0
@@ -259,7 +275,10 @@ data modify storage minecraft:bingo root.team_43.mud_brick_stairs_vert set value
 data modify storage minecraft:bingo root.team_43.mud_brick_stairs_bleu set value 0
 data modify storage minecraft:bingo root.team_43.mud_brick_stairs_orange set value 0
 data modify storage minecraft:bingo root.team_43.mud_brick_stairs_rose set value 0
-
+data modify storage minecraft:bingo root.team_44.potato_bleu set value 0
+data modify storage minecraft:bingo root.team_44.potato_orange set value 0
+data modify storage minecraft:bingo root.team_44.potato_rose set value 0
+data modify storage minecraft:bingo root.team_44.potato_vert set value 0
 
 #reset goals
 advancement revoke @a everything

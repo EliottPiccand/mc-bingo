@@ -20,5 +20,4 @@ execute if entity @s[team=rose] store result storage minecraft:bingo root.team_3
 execute if entity @s[team=vert] store result storage minecraft:bingo root.team_33.fish_caught_vert int 1 run scoreboard players get input1 calculator
 
 #clear detection advancement
-say yo
 advancement revoke @s only bingo:detection_team_33/detection_team_33

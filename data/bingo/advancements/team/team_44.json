@@ -1,11 +1,14 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:barrier"
+        "item": "minecraft:potato"
+      },
+      "title": "M.Patate",
+          "description": "Votre équipe doit manger 2 stack de patates crues",
+          "show_toast": true,
+          "announce_to_chat": false,
+          "hidden": false
     },
-    "title": "44",
-    "description": "desc00"
-  },
   "parent": "bingo:team/team_43",
   "criteria": {
     "requirement": {

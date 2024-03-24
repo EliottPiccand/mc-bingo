@@ -1,11 +1,14 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:barrier"
+        "item": "minecraft:brick_stairs"
+      },
+      "title": "Quelques marches",
+          "description": "Votre équipe doit crafter 20 types d'escaliers différents",
+          "show_toast": true,
+          "announce_to_chat": false,
+          "hidden": false
     },
-    "title": "43",
-    "description": "desc00"
-  },
   "parent": "bingo:team/team_42",
   "criteria": {
     "requirement": {

@@ -4,7 +4,7 @@
       "item": "minecraft:stick"
     },
     "title": "Passionement, à la folie",
-    "description": "Remplir un inventaire de sticks (37 slots)",
+    "description": "Un joueur doit remplir son inventaire de sticks (37 slots)",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": false
