@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:crimson_stairs"
+            }
+        }
+    },
+    "rewards": {
+        "function": "bingo:team/validate_team_43_crimson_stairs"
+    }
+}

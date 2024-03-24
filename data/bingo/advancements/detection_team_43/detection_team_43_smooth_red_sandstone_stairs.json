@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:smooth_red_sandstone_stairs"
+            }
+        }
+    },
+    "rewards": {
+        "function": "bingo:team/validate_team_43_smooth_red_sandstone_stairs"
+    }
+}

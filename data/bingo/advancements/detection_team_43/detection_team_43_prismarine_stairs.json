@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:prismarine_stairs"
+            }
+        }
+    },
+    "rewards": {
+        "function": "bingo:team/validate_team_43_prismarine_stairs"
+    }
+}

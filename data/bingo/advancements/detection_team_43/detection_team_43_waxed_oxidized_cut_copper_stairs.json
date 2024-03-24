@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:waxed_oxidized_cut_copper_stairs"
+            }
+        }
+    },
+    "rewards": {
+        "function": "bingo:team/validate_team_43_waxed_oxidized_cut_copper_stairs"
+    }
+}
