@@ -27,7 +27,6 @@ tag @r[tag=taupe] add leader_taupes
 
 # Teams
 # Team vert
-# 1 achivement = 1 point
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_00}] run scoreboard players add Vert Score 1
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_01}] run scoreboard players add Vert Score 1
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_02}] run scoreboard players add Vert Score 1
@@ -54,23 +53,19 @@ execute if entity @a[tag=leader_vert, advancements={bingo:team/team_42}] run sco
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_43}] run scoreboard players add Vert Score 1
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_44}] run scoreboard players add Vert Score 1
 
-# 1 row = 3 points
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_00=true,bingo:team/team_10=true,bingo:team/team_20=true,bingo:team/team_30=true,bingo:team/team_40=true}] run scoreboard players add Vert Score 3
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_01=true,bingo:team/team_11=true,bingo:team/team_21=true,bingo:team/team_31=true,bingo:team/team_41=true}] run scoreboard players add Vert Score 3
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_02=true,bingo:team/team_12=true,bingo:team/team_22=true,bingo:team/team_32=true,bingo:team/team_42=true}] run scoreboard players add Vert Score 3
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_03=true,bingo:team/team_13=true,bingo:team/team_33=true,bingo:team/team_23=true,bingo:team/team_43=true}] run scoreboard players add Vert Score 3
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_04=true,bingo:team/team_14=true,bingo:team/team_24=true,bingo:team/team_34=true,bingo:team/team_44=true}] run scoreboard players add Vert Score 3
 
-# 1 column = 3 points
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_04=true,bingo:team/team_03=true,bingo:team/team_02=true,bingo:team/team_01=true,bingo:team/team_00=true}] run scoreboard players add Vert Score 3
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_14=true,bingo:team/team_13=true,bingo:team/team_12=true,bingo:team/team_11=true,bingo:team/team_10=true}] run scoreboard players add Vert Score 3
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_24=true,bingo:team/team_33=true,bingo:team/team_22=true,bingo:team/team_21=true,bingo:team/team_20=true}] run scoreboard players add Vert Score 3
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_34=true,bingo:team/team_23=true,bingo:team/team_32=true,bingo:team/team_31=true,bingo:team/team_30=true}] run scoreboard players add Vert Score 3
 execute if entity @a[tag=leader_vert, advancements={bingo:team/team_44=true,bingo:team/team_43=true,bingo:team/team_42=true,bingo:team/team_41=true,bingo:team/team_40=true}] run scoreboard players add Vert Score 3
 
-
 # Team bleu
-
 execute if entity @a[tag=leader_bleu, advancements={bingo:team/team_00}] run scoreboard players add Bleu Score 1
 execute if entity @a[tag=leader_bleu, advancements={bingo:team/team_01}] run scoreboard players add Bleu Score 1
 execute if entity @a[tag=leader_bleu, advancements={bingo:team/team_02}] run scoreboard players add Bleu Score 1
@@ -108,7 +103,6 @@ execute if entity @a[tag=leader_bleu, advancements={bingo:team/team_14=true,bing
 execute if entity @a[tag=leader_bleu, advancements={bingo:team/team_24=true,bingo:team/team_33=true,bingo:team/team_22=true,bingo:team/team_21=true,bingo:team/team_20=true}] run scoreboard players add Bleu Score 3
 execute if entity @a[tag=leader_bleu, advancements={bingo:team/team_34=true,bingo:team/team_23=true,bingo:team/team_32=true,bingo:team/team_31=true,bingo:team/team_30=true}] run scoreboard players add Bleu Score 3
 execute if entity @a[tag=leader_bleu, advancements={bingo:team/team_44=true,bingo:team/team_43=true,bingo:team/team_42=true,bingo:team/team_41=true,bingo:team/team_40=true}] run scoreboard players add Bleu Score 3
-
 
 # Team orange
 execute if entity @a[tag=leader_orange, advancements={bingo:team/team_00}] run scoreboard players add Orange Score 1
@@ -149,45 +143,45 @@ execute if entity @a[tag=leader_orange, advancements={bingo:team/team_24=true,bi
 execute if entity @a[tag=leader_orange, advancements={bingo:team/team_34=true,bingo:team/team_23=true,bingo:team/team_32=true,bingo:team/team_31=true,bingo:team/team_30=true}] run scoreboard players add Orange Score 3
 execute if entity @a[tag=leader_orange, advancements={bingo:team/team_44=true,bingo:team/team_43=true,bingo:team/team_42=true,bingo:team/team_41=true,bingo:team/team_40=true}] run scoreboard players add Orange Score 3
 
+# Team rose
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_00}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_01}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_02}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_03}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_04}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_10}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_11}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_12}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_13}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_14}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_20}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_21}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_22}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_23}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_24}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_30}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_31}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_32}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_33}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_34}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_40}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_41}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_42}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_43}] run scoreboard players add Rose Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_44}] run scoreboard players add Rose Score 1
 
-# Team vert
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_00}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_01}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_02}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_03}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_04}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_10}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_11}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_12}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_13}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_14}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_20}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_21}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_22}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_23}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_24}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_30}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_31}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_32}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_33}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_34}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_40}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_41}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_42}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_43}] run scoreboard players add Vert Score 1
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_44}] run scoreboard players add Vert Score 1
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_00=true,bingo:team/team_10=true,bingo:team/team_20=true,bingo:team/team_30=true,bingo:team/team_40=true}] run scoreboard players add Rose Score 3
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_01=true,bingo:team/team_11=true,bingo:team/team_21=true,bingo:team/team_31=true,bingo:team/team_41=true}] run scoreboard players add Rose Score 3
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_02=true,bingo:team/team_12=true,bingo:team/team_22=true,bingo:team/team_32=true,bingo:team/team_42=true}] run scoreboard players add Rose Score 3
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_03=true,bingo:team/team_13=true,bingo:team/team_33=true,bingo:team/team_23=true,bingo:team/team_43=true}] run scoreboard players add Rose Score 3
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_04=true,bingo:team/team_14=true,bingo:team/team_24=true,bingo:team/team_34=true,bingo:team/team_44=true}] run scoreboard players add Rose Score 3
 
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_00=true,bingo:team/team_10=true,bingo:team/team_20=true,bingo:team/team_30=true,bingo:team/team_40=true}] run scoreboard players add Vert Score 3
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_01=true,bingo:team/team_11=true,bingo:team/team_21=true,bingo:team/team_31=true,bingo:team/team_41=true}] run scoreboard players add Vert Score 3
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_02=true,bingo:team/team_12=true,bingo:team/team_22=true,bingo:team/team_32=true,bingo:team/team_42=true}] run scoreboard players add Vert Score 3
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_03=true,bingo:team/team_13=true,bingo:team/team_33=true,bingo:team/team_23=true,bingo:team/team_43=true}] run scoreboard players add Vert Score 3
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_04=true,bingo:team/team_14=true,bingo:team/team_24=true,bingo:team/team_34=true,bingo:team/team_44=true}] run scoreboard players add Vert Score 3
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_04=true,bingo:team/team_03=true,bingo:team/team_02=true,bingo:team/team_01=true,bingo:team/team_00=true}] run scoreboard players add Rose Score 3
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_14=true,bingo:team/team_13=true,bingo:team/team_12=true,bingo:team/team_11=true,bingo:team/team_10=true}] run scoreboard players add Rose Score 3
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_24=true,bingo:team/team_33=true,bingo:team/team_22=true,bingo:team/team_21=true,bingo:team/team_20=true}] run scoreboard players add Rose Score 3
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_34=true,bingo:team/team_23=true,bingo:team/team_32=true,bingo:team/team_31=true,bingo:team/team_30=true}] run scoreboard players add Rose Score 3
+execute if entity @a[tag=leader_rose, advancements={bingo:team/team_44=true,bingo:team/team_43=true,bingo:team/team_42=true,bingo:team/team_41=true,bingo:team/team_40=true}] run scoreboard players add Rose Score 3
 
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_04=true,bingo:team/team_03=true,bingo:team/team_02=true,bingo:team/team_01=true,bingo:team/team_00=true}] run scoreboard players add Vert Score 3
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_14=true,bingo:team/team_13=true,bingo:team/team_12=true,bingo:team/team_11=true,bingo:team/team_10=true}] run scoreboard players add Vert Score 3
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_24=true,bingo:team/team_33=true,bingo:team/team_22=true,bingo:team/team_21=true,bingo:team/team_20=true}] run scoreboard players add Vert Score 3
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_34=true,bingo:team/team_23=true,bingo:team/team_32=true,bingo:team/team_31=true,bingo:team/team_30=true}] run scoreboard players add Vert Score 3
-execute if entity @a[tag=leader_vert, advancements={bingo:team/team_44=true,bingo:team/team_43=true,bingo:team/team_42=true,bingo:team/team_41=true,bingo:team/team_40=true}] run scoreboard players add Vert Score 3
 
 # Taupes
 execute if entity @a[tag=leader_taupes, advancements={bingo:taupes/taupes_00}] run scoreboard players add Taupes Score 1

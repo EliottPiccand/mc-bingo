@@ -35,21 +35,18 @@ def advancements_from_ids(ids: list) -> str:
 with open("tmp.txt", "w") as file:
     w("# Teams")
 
-    for team in ("vert", "bleu", "orange", "vert"):
+    for team in ("vert", "bleu", "orange", "rose"):
 
-        w("\n\n# Team " + team)
-
-        w(f"# 1 achivement = {PT_ACHIVEMENT} point")
+        w("\n# Team " + team)
 
         for x, y in product(range(5), range(5)):
             w("execute if entity @a[tag=leader_" + team + ", advancements={bingo:team/team_" + f"{x}{y}" + "}] run scoreboard players add " + team.capitalize() + f" Score {PT_ACHIVEMENT}")
-
-        w(f"\n# 1 row = {PT_ROW} points")
         
+        w("")
         for ids in team_rows:
             w("execute if entity @a[tag=leader_" + team + ", advancements={" + advancements_from_ids(ids) + "}] run scoreboard players add " + team.capitalize() + f" Score {PT_ROW}")
         
-        w(f"\n# 1 column = {PT_COLUMN} points")
+        w("")
         for ids in team_columns:
             w("execute if entity @a[tag=leader_" + team + ", advancements={" + advancements_from_ids(ids) + "}] run scoreboard players add " + team.capitalize() + f" Score {PT_COLUMN}")
     
