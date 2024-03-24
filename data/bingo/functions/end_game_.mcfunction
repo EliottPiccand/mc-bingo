@@ -1,9 +1,6 @@
 gamemode spectator @a
 tp @a @e[tag=SpawnHeightCheck,limit=1]
 
-kill @e[tag=SpawnHeightCheck]
-
-
 # Score calculation
 scoreboard objectives add Score dummy
 
@@ -21,6 +18,14 @@ scoreboard players set Bleu Score 0
 scoreboard players set Orange Score 0
 scoreboard players set Rose Score 0
 scoreboard players set Taupes Score 0
+
+tag @r[team=vert] add leader_vert
+tag @r[team=bleu] add leader_bleu
+tag @r[team=orange] add leader_orange
+tag @r[team=rose] add leader_rose
+tag @r[tag=taupe] add leader_taupes
+
+# TODO -> score_calculation_generator.py
 
 # Score display
 scoreboard objectives setdisplay sidebar Score
