@@ -16,15 +16,24 @@ defaultgamemode adventure
 difficulty peaceful
 
 # Create spawn
-setblock -13 310 -13 minecraft:structure_block{mode:"LOAD",name:"bingo:spawn"}
-setblock -13 309 -13 redstone_block
-setblock -13 309 -13 air replace
-setblock -13 309 -13 redstone_block
-setblock -13 309 -13 air replace
+setblock 0 300 0 minecraft:structure_block{mode:"LOAD",name:"bingo:spawn1",posX:0,posY:-1,posZ:0}
+setblock 1 300 0 redstone_block
 
-setblock -11 313 4 birch_wall_hanging_sign[facing=east]{front_text:{color:"gray",has_glowing_text:1b,messages:['{"text":""}','{"text":"Spectateur","clickEvent":{"action":"run_command","value":"team join spec @s"}}','{"text":""}','{"text":""}']}} keep
+data modify block 0 301 0 mode set value LOAD
+data modify block 0 301 0 name set value "bingo:spawn2"
+setblock 1 301 0 redstone_block
 
-setworldspawn 0 312 0
+data modify block 0 302 0 mode set value LOAD
+data modify block 0 302 0 name set value "bingo:spawn3"
+setblock 1 302 0 redstone_block
+
+data modify block 0 303 0 mode set value LOAD
+data modify block 0 303 0 name set value "bingo:spawn4"
+setblock 1 303 0 redstone_block
+
+fill 0 300 0 1 303 0 air replace
+
+setworldspawn 0 300 0
 
 # Reset goals
 function bingo:reset_goals
