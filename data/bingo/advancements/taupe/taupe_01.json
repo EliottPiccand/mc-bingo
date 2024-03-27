@@ -1,15 +1,38 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:barrier"
+      "item": "minecraft:charcoal"
     },
-    "title": "01",
-    "description": "desc00"
+    "title": "Gaspillage",
+    "description": "Chaque taupe doit faire cuire 32 bûches pour obtenir 32 de charbon de bois"
   },
   "parent": "bingo:taupe/taupe_00",
   "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "1": {
+        "trigger": "minecraft:impossible"
+    },
+    "2": {
+        "trigger": "minecraft:impossible"
+    },
+    "3": {
+        "trigger": "minecraft:impossible"
+    },
+    "4": {
+        "trigger": "minecraft:impossible"
     }
-  }
+},
+"requirements": [
+    [
+        "1"
+    ],
+    [
+        "2"
+    ],
+    [
+        "3"
+    ],
+    [
+        "4"
+    ]
+]
 }

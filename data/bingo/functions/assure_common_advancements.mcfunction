@@ -127,10 +127,7 @@ execute if entity @a[team=vert, advancements={bingo:team/team_44=true}] run adva
 
 
 # Taupes
-execute if entity @a[tag=taupe, advancements={bingo:taupe/taupe_00={1=true}}] run advancement grant @a[tag=taupe] only bingo:taupe/taupe_00 1
-execute if entity @a[tag=taupe, advancements={bingo:taupe/taupe_00={2=true}}] run advancement grant @a[tag=taupe] only bingo:taupe/taupe_00 2
-execute if entity @a[tag=taupe, advancements={bingo:taupe/taupe_00={3=true}}] run advancement grant @a[tag=taupe] only bingo:taupe/taupe_00 3
-execute if entity @a[tag=taupe, advancements={bingo:taupe/taupe_00={4=true}}] run advancement grant @a[tag=taupe] only bingo:taupe/taupe_00 4
+execute if entity @a[tag=taupe, advancements={bingo:taupe/taupe_00=true}] run advancement grant @a[tag=taupe] only bingo:taupe/taupe_00
 
 execute if entity @a[tag=taupe, advancements={bingo:taupe/taupe_01={1=true}}] run advancement grant @a[tag=taupe] only bingo:taupe/taupe_01 1
 execute if entity @a[tag=taupe, advancements={bingo:taupe/taupe_01={2=true}}] run advancement grant @a[tag=taupe] only bingo:taupe/taupe_01 2

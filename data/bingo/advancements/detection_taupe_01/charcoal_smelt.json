@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "minecraft:charcoal"
+            }
+        }
+    },
+  "rewards": {
+    "function": "bingo:taupe/validate_taupe_01"
+  }
+}

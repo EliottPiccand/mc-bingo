@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:barrier"
+      "item": "minecraft:campfire"
     },
     "title": "Réunion des taupes",
-    "description": "a"
+    "description": "Votre équipe doit se retrouver quelque part"
   },
   "parent": "bingo:taupe/taupe_init",
   "criteria": {

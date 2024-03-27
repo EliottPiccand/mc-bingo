@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": [],
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "minecraft:always_most_significant_fall",
+                                "expected": true
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+  "rewards": {
+    "function": "bingo:taupe/validate_taupe_02"
+  }
+}

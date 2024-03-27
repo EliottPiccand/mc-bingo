@@ -13,6 +13,11 @@ scoreboard objectives remove craft_banner_vert
 scoreboard objectives add craft_banner_vert minecraft.crafted:lime_banner
 scoreboard objectives remove kill_hash
 scoreboard objectives add kill_hash dummy
+scoreboard objectives remove charcoal_smelt
+scoreboard objectives add charcoal_smelt minecraft.crafted:charcoal
+scoreboard objectives remove void_deaths
+scoreboard objectives add void_deaths dummy
+scoreboard players set total void_deaths 0
 
 scoreboard objectives remove kills
 scoreboard objectives add kills minecraft.killed:player

@@ -1,15 +1,33 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:feather"
+      },
+      "title": "Les blocs disparaissent",
+      "description": "3 joueurs non-taupes doivent mourir du vide dans l'end"
     },
-    "title": "02",
-    "description": "desc00"
+    "parent": "bingo:taupe/taupe_01",
+    "criteria": {
+      "1": {
+          "trigger": "minecraft:impossible"
+      },
+      "2": {
+          "trigger": "minecraft:impossible"
+      },
+      "3": {
+          "trigger": "minecraft:impossible"
+      }
   },
-  "parent": "bingo:taupe/taupe_01",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
+  "requirements": [
+      [
+          "1"
+      ],
+      [
+          "2"
+      ],
+      [
+          "3"
+      ]
+  ]
   }
-}
+  
