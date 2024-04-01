@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [],
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:lava_cauldron"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+  "rewards": {
+    "function": "bingo:taupe/validate_taupe_14"
+  }
+}

@@ -1,15 +1,38 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:barrier"
+      "item": "minecraft:cake"
     },
-    "title": "10",
-    "description": "desc00"
+    "title": "Gourmandise",
+    "description": "Chaque taupe doit manger un gâteau complet"
   },
   "parent": "bingo:taupe/taupe_init",
   "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "1": {
+        "trigger": "minecraft:impossible"
+    },
+    "2": {
+        "trigger": "minecraft:impossible"
+    },
+    "3": {
+        "trigger": "minecraft:impossible"
+    },
+    "4": {
+        "trigger": "minecraft:impossible"
     }
-  }
+},
+"requirements": [
+    [
+        "1"
+    ],
+    [
+        "2"
+    ],
+    [
+        "3"
+    ],
+    [
+        "4"
+    ]
+]
 }
