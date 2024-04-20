@@ -4,7 +4,10 @@
         "item": "minecraft:firework_rocket"
       },
       "title": "Distraction",
-      "description": "Chaque taupe doit tirer un feu d'artifice"
+      "description": "Chaque taupe doit tirer un feu d'artifice",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
     "parent": "bingo:taupe/taupe_10",
     "criteria": {

@@ -4,9 +4,12 @@
       "item": "minecraft:campfire"
     },
     "title": "Réunion des taupes",
-    "description": "Votre équipe doit se retrouver quelque part"
+    "description": "Votre équipe doit se retrouver quelque part",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
   },
-  "parent": "bingo:taupe/taupe_init",
+  "parent": "bingo:taupe/taupe_root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

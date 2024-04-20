@@ -6,7 +6,9 @@
     "title": "Taupe",
     "description": "Voici la grille des taupes",
     "background": "minecraft:textures/block/deepslate_tiles.png",
-    "announce_to_chat": false
+    "show_toast": false,
+      "announce_to_chat": false,
+      "frame": "goal"
   },
   "criteria": {
     "requirement": {

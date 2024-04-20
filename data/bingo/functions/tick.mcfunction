@@ -6,6 +6,7 @@ execute as @a[tag=taupe,scores={cake_eaten=7..}] run function bingo:taupe/detect
 execute as @a[tag=taupe,scores={firework_shot=1..}] run function bingo:taupe/detect_taupe_11
 execute as @a[tag=taupe] run function bingo:taupe/detect_taupe_12
 execute as @a[tag=taupe,scores={bell_rang=1..}] run function bingo:taupe/detect_taupe_13
+execute as @a[tag=taupe,scores={kills=1..}] run function bingo:taupe/detect_taupe_24
 
 # Lance les detections de chaque bingo equipe
 execute as @a run function bingo:team/detect_team_14

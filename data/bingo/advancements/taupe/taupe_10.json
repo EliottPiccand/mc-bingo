@@ -4,9 +4,12 @@
       "item": "minecraft:cake"
     },
     "title": "Gourmandise",
-    "description": "Chaque taupe doit manger un gâteau complet"
+    "description": "Chaque taupe doit manger un gâteau complet",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
   },
-  "parent": "bingo:taupe/taupe_init",
+  "parent": "bingo:taupe/taupe_root",
   "criteria": {
     "1": {
         "trigger": "minecraft:impossible"

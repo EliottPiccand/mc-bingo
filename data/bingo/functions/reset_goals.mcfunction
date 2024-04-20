@@ -296,6 +296,8 @@ data modify storage minecraft:bingo root.team_44.potato_rose set value 0
 data modify storage minecraft:bingo root.team_44.potato_vert set value 0
 
 data modify storage minecraft:bingo root.taupe_04.spawners_destroyed set value 0
+data modify storage minecraft:bingo root.taupe_20.ghasts_killed set value 0
+data modify storage minecraft:bingo root.taupe_21.horses_killed set value 0
 
 #reset goals
 advancement revoke @a everything

@@ -6,7 +6,7 @@
     "title": "40",
     "description": "e"
   },
-  "parent": "bingo:taupe/taupe_init",
+  "parent": "bingo:taupe/taupe_root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

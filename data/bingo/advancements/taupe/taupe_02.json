@@ -4,7 +4,10 @@
         "item": "minecraft:feather"
       },
       "title": "Les blocs disparaissent",
-      "description": "3 joueurs non-taupes doivent mourir du vide dans l'end"
+      "description": "3 joueurs non-taupes doivent mourir du vide dans l'end",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
     "parent": "bingo:taupe/taupe_01",
     "criteria": {

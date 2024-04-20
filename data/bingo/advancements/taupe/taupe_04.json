@@ -4,7 +4,10 @@
         "item": "minecraft:golden_pickaxe"
       },
       "title": "Destruction à la source",
-      "description": "Les taupes doivent casser 5 spawners de Blaze"
+      "description": "Les taupes doivent casser 5 spawners de Blaze",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
     "parent": "bingo:taupe/taupe_03",
     "criteria": {
