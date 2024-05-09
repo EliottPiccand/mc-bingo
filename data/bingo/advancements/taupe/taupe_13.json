@@ -3,7 +3,7 @@
       "icon": {
         "item": "minecraft:bell"
       },
-      "title": "Alerte",
+      "title": "Alerte générale",
       "description": "Chaque taupe doit taper une cloche",
       "show_toast": true,
       "announce_to_chat": false,

@@ -1,0 +1,3 @@
+execute as @e[type=wolf, name="la taupe"] at @s run data modify entity @s Owner set from entity @p UUID
+execute if entity @e[type=wolf, name="la taupe"] run data modify storage minecraft:bingo root.taupe_31.wolf_created set value 1
+execute if data storage minecraft:bingo root.taupe_31{wolf_created:1} unless entity @e[type=wolf, name="la taupe"] run advancement grant @a[tag=taupe] only bingo:taupe/taupe_31

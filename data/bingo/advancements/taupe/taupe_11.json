@@ -3,7 +3,7 @@
       "icon": {
         "item": "minecraft:firework_rocket"
       },
-      "title": "Distraction",
+      "title": "Oh la belle taupe !",
       "description": "Chaque taupe doit tirer un feu d'artifice",
       "show_toast": true,
       "announce_to_chat": false,

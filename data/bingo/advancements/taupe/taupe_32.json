@@ -1,15 +1,43 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:zombie_head"
+      },
+      "title": "Médecine traditionnelle",
+      "description": "Une taupe doit tuer un Zombie Villageois qui est en train d'être transformé",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "32",
-    "description": "desc00"
-  },
-  "parent": "bingo:taupe/taupe_31",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "parent": "bingo:taupe/taupe_31",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[taupe]}"
+                },
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "conversion_time": {
+                                "min": 0,
+                                "max": 10000
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:zombie_villager"
+                        }
+                    }
+                ]
+            }
+        }
     }
   }
-}
+  

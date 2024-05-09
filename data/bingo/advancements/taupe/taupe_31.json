@@ -1,15 +1,19 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:bone"
+      },
+      "title": "L'art de la diversion",
+      "description": "Un chien renommé \"la\u00a0taupe\" doit mourir (attention au message de mort)",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "31",
-    "description": "desc00"
-  },
-  "parent": "bingo:taupe/taupe_30",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "parent": "bingo:taupe/taupe_30",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
     }
   }
-}
+  
