@@ -4,7 +4,7 @@
         "item": "minecraft:lava_bucket"
       },
       "title": "Bain chaud",
-      "description": "Chaque taupe doit remblir un chaudron de lave",
+      "description": "Chaque taupe doit remplir un chaudron de lave",
       "show_toast": true,
       "announce_to_chat": false,
       "hidden": false
