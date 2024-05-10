@@ -1,15 +1,19 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:red_tulip"
+      },
+      "title": "Cadeau inutile",
+      "description": "Une taupe doit jeter au sol une tulipe rouge renommée \"cadeau\u00a0de\u00a0la\u00a0taupe\" qu'un autre joueur doit récupérer",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "44",
-    "description": "desc00"
-  },
-  "parent": "bingo:taupe/taupe_43",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
+    "parent": "bingo:taupe/taupe_43",
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:impossible"
+        }
+      }
   }
-}
+  

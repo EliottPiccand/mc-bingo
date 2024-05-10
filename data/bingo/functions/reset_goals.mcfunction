@@ -32,13 +32,16 @@ scoreboard objectives remove conversion_time
 scoreboard objectives add conversion_time dummy
 scoreboard objectives remove enchanting_table_broken_time
 scoreboard objectives add enchanting_table_broken_time dummy
+scoreboard objectives remove composted_potatoes
+scoreboard objectives add composted_potatoes dummy
+scoreboard players set total composted_potatoes 0
 
 scoreboard objectives remove kills
 scoreboard objectives add kills minecraft.killed:player
 scoreboard objectives setdisplay list kills
 
 #debugging
-scoreboard objectives setdisplay sidebar enchanting_table_broken_time
+scoreboard objectives setdisplay sidebar composted_potatoes
 
 #creates all storages
 data modify storage minecraft:bingo root.team_14.stick_counter set value 0

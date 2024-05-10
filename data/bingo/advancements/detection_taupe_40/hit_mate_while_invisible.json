@@ -1,0 +1,147 @@
+{
+    "criteria": {
+        "bleu": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[taupe]}",
+                            "team": "bleu",
+                            "effects": {
+                                "minecraft:invisibility": {
+                                    "amplifier": 0,
+                                    "duration": {
+                                        "min": 0,
+                                        "max": 10000
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "team": "bleu"
+                        }
+                    }
+                ]
+            }
+        },
+        "orange": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[taupe]}",
+                            "team": "orange",
+                            "effects": {
+                                "minecraft:invisibility": {
+                                    "amplifier": 0,
+                                    "duration": {
+                                        "min": 0,
+                                        "max": 10000
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "team": "orange"
+                        }
+                    }
+                ]
+            }
+        },
+        "rose": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[taupe]}",
+                            "team": "rose",
+                            "effects": {
+                                "minecraft:invisibility": {
+                                    "amplifier": 0,
+                                    "duration": {
+                                        "min": 0,
+                                        "max": 10000
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "team": "rose"
+                        }
+                    }
+                ]
+            }
+        },
+        "vert": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[taupe]}",
+                            "team": "vert",
+                            "effects": {
+                                "minecraft:invisibility": {
+                                    "amplifier": 0,
+                                    "duration": {
+                                        "min": 0,
+                                        "max": 10000
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "team": "vert"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bleu",
+            "orange",
+            "rose",
+            "vert"
+        ]
+    ],
+    "rewards": {
+        "function": "bingo:taupe/validate_taupe_40"
+    }
+}

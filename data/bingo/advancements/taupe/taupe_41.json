@@ -1,15 +1,19 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:potato"
+      },
+      "title": "Potato Haters",
+      "description": "L'équipe des taupes doit composter 200 patates",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "41",
-    "description": "desc00"
-  },
-  "parent": "bingo:taupe/taupe_40",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
+    "parent": "bingo:taupe/taupe_40",
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:impossible"
+        }
+      }
   }
-}
+  

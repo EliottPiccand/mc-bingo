@@ -1,15 +1,19 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:anvil"
+      },
+      "title": "Accident du travail",
+      "description": "Un joueur non taupe meurt écrasé par une enclume",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "42",
-    "description": "desc00"
-  },
-  "parent": "bingo:taupe/taupe_41",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
+    "parent": "bingo:taupe/taupe_41",
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:impossible"
+        }
+      }
   }
-}
+  

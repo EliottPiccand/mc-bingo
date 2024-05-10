@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:thrown_item_picked_up_by_player",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:red_tulip"
+                    ],
+                    "nbt": "{display:{Name:'\"cadeau de la taupe\"'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bingo:taupe/validate_taupe_44"
+    }
+}
