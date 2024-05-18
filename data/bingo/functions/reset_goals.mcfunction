@@ -37,7 +37,7 @@ scoreboard objectives add composted_potatoes dummy
 scoreboard players set total composted_potatoes 0
 
 scoreboard objectives remove kills
-scoreboard objectives add kills minecraft.killed:minecraft.player
+scoreboard objectives add kills playerKillCount
 scoreboard objectives setdisplay list kills
 
 #creates all storages
