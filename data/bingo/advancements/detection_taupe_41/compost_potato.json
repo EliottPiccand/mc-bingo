@@ -3,16 +3,6 @@
         "requirement": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:potato"
-                            ]
-                        }
-                    }
-                ],
                 "location": [
                     {
                         "condition": "minecraft:inverted",
