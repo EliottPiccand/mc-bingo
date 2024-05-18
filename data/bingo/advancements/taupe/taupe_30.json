@@ -1,15 +1,33 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:scaffolding"
+      },
+      "title": "Avantage stratégique",
+      "description": "Une taupe doit atteindre la hauteur y=150 dans le Nether",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "30",
-    "description": "d"
-  },
-  "parent": "bingo:taupe/taupe_init",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "parent": "bingo:taupe/taupe_root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[taupe]}",
+                    "location": {
+                        "position": {
+                            "y": {
+                                "min": 150,
+                                "max": 1000
+                            }
+                        },
+                        "dimension": "minecraft:the_nether"
+                    }
+                }
+            }
+        }
     }
   }
-}
+  

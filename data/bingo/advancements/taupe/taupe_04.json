@@ -1,15 +1,48 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:golden_pickaxe"
+      },
+      "title": "Destruction à la source",
+      "description": "Les taupes doivent casser 5 spawners de Blaze",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "04",
-    "description": "desc00"
+    "parent": "bingo:taupe/taupe_03",
+    "criteria": {
+      "1": {
+          "trigger": "minecraft:impossible"
+      },
+      "2": {
+          "trigger": "minecraft:impossible"
+      },
+      "3": {
+          "trigger": "minecraft:impossible"
+      },
+      "4": {
+          "trigger": "minecraft:impossible"
+      },
+      "5": {
+          "trigger": "minecraft:impossible"
+      }
   },
-  "parent": "bingo:taupe/taupe_03",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
+  "requirements": [
+      [
+          "1"
+      ],
+      [
+          "2"
+      ],
+      [
+          "3"
+      ],
+      [
+          "4"
+      ],
+      [
+          "5"
+      ]
+  ]
   }
-}
+  

@@ -14,7 +14,7 @@ scoreboard players operation input1 calculator += input2 calculator
 execute if score input1 calculator matches 128.. run advancement grant @s only bingo:team/team_44
 
 #update the storage
-execute if entity @s[team=bleu] store result storage minecraft:bingo root.team_44.fish_caught_bleu int 1 run scoreboard players get input1 calculator
+execute if entity @s[team=bleu] store result storage minecraft:bingo root.team_44.potato_bleu int 1 run scoreboard players get input1 calculator
 execute if entity @s[team=orange] store result storage minecraft:bingo root.team_44.potato_orange int 1 run scoreboard players get input1 calculator
 execute if entity @s[team=rose] store result storage minecraft:bingo root.team_44.potato_rose int 1 run scoreboard players get input1 calculator
 execute if entity @s[team=vert] store result storage minecraft:bingo root.team_44.potato_vert int 1 run scoreboard players get input1 calculator

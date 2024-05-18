@@ -1,15 +1,19 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:potion"
+      },
+      "title": "Mission à haut risque",
+      "description": "Une taupe sans armure et sous l'effet d'invisibilité doit taper un joueur de son ancienne équipe",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "40",
-    "description": "e"
-  },
-  "parent": "bingo:taupe/taupe_init",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
+    "parent": "bingo:taupe/taupe_root",
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:impossible"
+        }
+      }
   }
-}
+  

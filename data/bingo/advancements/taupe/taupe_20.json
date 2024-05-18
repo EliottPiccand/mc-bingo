@@ -1,15 +1,78 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:fire_charge"
+      },
+      "title": "Penurie de Ghasts",
+      "description": "L'équipe des taupes doit tuer 10 ghasts",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "20",
-    "description": "c"
+    "parent": "bingo:taupe/taupe_root",
+    "criteria": {
+      "1": {
+          "trigger": "minecraft:impossible"
+      },
+      "2": {
+          "trigger": "minecraft:impossible"
+      },
+      "3": {
+          "trigger": "minecraft:impossible"
+      },
+      "4": {
+          "trigger": "minecraft:impossible"
+      },
+      "5": {
+          "trigger": "minecraft:impossible"
+      },
+      "6": {
+          "trigger": "minecraft:impossible"
+      },
+      "7": {
+          "trigger": "minecraft:impossible"
+      },
+      "8": {
+          "trigger": "minecraft:impossible"
+      },
+      "9": {
+          "trigger": "minecraft:impossible"
+      },
+      "10": {
+          "trigger": "minecraft:impossible"
+      }
   },
-  "parent": "bingo:taupe/taupe_init",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
+  "requirements": [
+      [
+          "1"
+      ],
+      [
+          "2"
+      ],
+      [
+          "3"
+      ],
+      [
+          "4"
+      ],
+      [
+          "5"
+      ],
+      [
+          "6"
+      ],
+      [
+          "7"
+      ],
+      [
+          "8"
+      ],
+      [
+          "9"
+      ],
+      [
+          "10"
+      ]
+  ]
   }
-}
+  

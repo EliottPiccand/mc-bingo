@@ -1,15 +1,19 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:skeleton_skull"
+      },
+      "title": "Zizanie",
+      "description": "Un joueur tue un coéquipier (aucun des deux ne doit être taupe)",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "43",
-    "description": "desc00"
-  },
-  "parent": "bingo:taupe/taupe_42",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
+    "parent": "bingo:taupe/taupe_42",
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:impossible"
+        }
+      }
   }
-}
+  

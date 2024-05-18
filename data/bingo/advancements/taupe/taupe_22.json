@@ -1,15 +1,19 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:oak_sign"
+      },
+      "title": "Affichage publique",
+      "description": "Une taupe doit écrire \"je\u00a0suis\u00a0la\u00a0taupe\" sur un panneau puis le faire briller avec un glow ink sac. L'objectif ne se valide que si un joueur non taupe est à moins de 15 blocs.",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "22",
-    "description": "desc00"
-  },
-  "parent": "bingo:taupe/taupe_21",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "parent": "bingo:taupe/taupe_21",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
     }
   }
-}
+  

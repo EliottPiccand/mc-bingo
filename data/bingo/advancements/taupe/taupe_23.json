@@ -1,15 +1,19 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:oxeye_daisy"
+      },
+      "title": "Message d'amour",
+      "description": "Un joueur non taupe doit ouvir un coffre renommé \"votre\u00a0taupe\u00a0<3\"",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "23",
-    "description": "desc00"
-  },
-  "parent": "bingo:taupe/taupe_22",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "parent": "bingo:taupe/taupe_22",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
     }
   }
-}
+  

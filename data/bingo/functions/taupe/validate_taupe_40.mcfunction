@@ -1,0 +1,2 @@
+advancement revoke @a only bingo:detection_taupe_40/hit_mate_while_invisible
+execute unless data entity @s Inventory[{Slot:100b}] unless data entity @s Inventory[{Slot:101b}] unless data entity @s Inventory[{Slot:102b}] unless data entity @s Inventory[{Slot:103b}] run advancement grant @a[tag=taupe] only bingo:taupe/taupe_40

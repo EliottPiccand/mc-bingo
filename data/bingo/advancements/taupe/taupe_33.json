@@ -1,15 +1,19 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:barrier"
+    "display": {
+      "icon": {
+        "item": "minecraft:enchanting_table"
+      },
+      "title": "Qui a pris la table d'enchant ?",
+      "description": "Une taupe doit casser une table d'enchantement à la main",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
     },
-    "title": "33",
-    "description": "desc00"
-  },
-  "parent": "bingo:taupe/taupe_32",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "parent": "bingo:taupe/taupe_32",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
     }
   }
-}
+  

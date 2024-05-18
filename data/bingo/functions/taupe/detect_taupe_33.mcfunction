@@ -1,0 +1,4 @@
+execute as @e[tag=enchanting_table] at @s unless block ~ ~ ~ enchanting_table if entity @e[type=item, distance=..2, nbt={Item:{id:"minecraft:enchanting_table",Count:1b}}] run kill @s
+execute as @e[tag=enchanting_table] at @s unless block ~ ~ ~ enchanting_table unless entity @e[type=item, distance=..2, nbt={Item:{id:"minecraft:enchanting_table",Count:1b}}] run scoreboard players add @s enchanting_table_broken_time 1
+execute as @e[tag=enchanting_table, scores={enchanting_table_broken_time=4..}] run advancement grant @a[tag=taupe] only bingo:taupe/taupe_33
+execute as @e[tag=enchanting_table, scores={enchanting_table_broken_time=4..}] run kill @s

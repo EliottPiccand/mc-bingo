@@ -13,13 +13,32 @@ scoreboard objectives remove craft_banner_vert
 scoreboard objectives add craft_banner_vert minecraft.crafted:lime_banner
 scoreboard objectives remove kill_hash
 scoreboard objectives add kill_hash dummy
+scoreboard objectives remove charcoal_smelt
+scoreboard objectives add charcoal_smelt minecraft.crafted:charcoal
+scoreboard objectives remove void_deaths
+scoreboard objectives add void_deaths dummy
+scoreboard players set total void_deaths 0
+scoreboard objectives remove pumpkin_pie
+scoreboard objectives add pumpkin_pie minecraft.used:pumpkin_pie
+scoreboard objectives remove spawner_broken
+scoreboard objectives add spawner_broken minecraft.mined:spawner
+scoreboard objectives remove firework_shot
+scoreboard objectives add firework_shot minecraft.used:firework_rocket
+scoreboard objectives remove black_banner
+scoreboard objectives add black_banner dummy
+scoreboard objectives remove bell_rang
+scoreboard objectives add bell_rang minecraft.custom:bell_ring
+scoreboard objectives remove conversion_time
+scoreboard objectives add conversion_time dummy
+scoreboard objectives remove enchanting_table_broken_time
+scoreboard objectives add enchanting_table_broken_time dummy
+scoreboard objectives remove composted_potatoes
+scoreboard objectives add composted_potatoes dummy
+scoreboard players set total composted_potatoes 0
 
 scoreboard objectives remove kills
 scoreboard objectives add kills minecraft.killed:player
 scoreboard objectives setdisplay list kills
-
-#debugging
-scoreboard objectives setdisplay sidebar kill_hash
 
 #creates all storages
 data modify storage minecraft:bingo root.team_14.stick_counter set value 0
@@ -279,6 +298,11 @@ data modify storage minecraft:bingo root.team_44.potato_bleu set value 0
 data modify storage minecraft:bingo root.team_44.potato_orange set value 0
 data modify storage minecraft:bingo root.team_44.potato_rose set value 0
 data modify storage minecraft:bingo root.team_44.potato_vert set value 0
+
+data modify storage minecraft:bingo root.taupe_04.spawners_destroyed set value 0
+data modify storage minecraft:bingo root.taupe_20.ghasts_killed set value 0
+data modify storage minecraft:bingo root.taupe_21.horses_killed set value 0
+data modify storage minecraft:bingo root.taupe_31.wolf_created set value 0
 
 #reset goals
 advancement revoke @a everything
