@@ -14,6 +14,11 @@ team modify spec color gray
 # No hunger bar depletion
 defaultgamemode adventure
 difficulty peaceful
+gamerule doWeatherCycle false
+
+# World settings
+weather clear
+worldborder set 20000
 
 # Create spawn
 setblock 0 300 0 minecraft:structure_block{mode:"LOAD",name:"bingo:spawn1",posX:0,posY:-1,posZ:0}
@@ -32,6 +37,11 @@ data modify block 0 303 0 name set value "bingo:spawn4"
 setblock 1 303 0 redstone_block
 
 fill 0 300 0 1 303 0 air replace
+setblock 4 301 -6 air replace
+setblock 6 301 0 air replace
+setblock 0 301 6 air replace
+setblock -6 301 0 air replace
+setblock -4 301 -6 air replace
 
 setworldspawn 0 300 0
 
