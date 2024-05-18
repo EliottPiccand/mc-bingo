@@ -40,9 +40,6 @@ scoreboard objectives remove kills
 scoreboard objectives add kills minecraft.killed:player
 scoreboard objectives setdisplay list kills
 
-#debugging
-scoreboard objectives setdisplay sidebar composted_potatoes
-
 #creates all storages
 data modify storage minecraft:bingo root.team_14.stick_counter set value 0
 data modify storage minecraft:bingo root.team_21.wolf_tamed_bleu set value 0

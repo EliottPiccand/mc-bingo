@@ -132,6 +132,7 @@ advancement grant @a[tag=taupe] only bingo:taupe/taupe_15_end
 advancement grant @a[tag=taupe] only bingo:taupe/taupe_25_end
 advancement grant @a[tag=taupe] only bingo:taupe/taupe_35_end
 advancement grant @a[tag=taupe] only bingo:taupe/taupe_45_end
+advancement revoke @a[tag=!taupe] from bingo:taupe/taupe_root
 
 execute if entity @a[tag=taupe, advancements={bingo:taupe/taupe_00=true}] run advancement grant @a[tag=taupe] only bingo:taupe/taupe_00
 
