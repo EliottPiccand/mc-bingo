@@ -8,4 +8,3 @@ execute if entity @s[team=bleu] run scoreboard players set @s kill_hash 1
 execute if entity @s[team=orange] run scoreboard players set @s kill_hash 2
 execute if entity @s[team=rose] run scoreboard players set @s kill_hash 4
 execute if entity @s[team=vert] run scoreboard players set @s kill_hash 8
-advancement revoke @s only bingo:detection_team_34/died

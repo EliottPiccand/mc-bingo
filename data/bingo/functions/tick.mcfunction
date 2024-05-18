@@ -27,6 +27,7 @@ function bingo:team/detect_team_23
 function bingo:team/detect_team_24
 function bingo:team/detect_team_30
 execute as @a unless score @s kill_hash matches -2147483648..2147483647 run function bingo:team/validate_team_34_died
+execute as @a[nbt={Health:0f}] run function bingo:team/validate_team_34_died
 execute as @r[team=bleu,nbt={Dimension:"minecraft:the_nether"}] at @s run function bingo:team/detect_team_40
 execute as @r[team=orange,nbt={Dimension:"minecraft:the_nether"}] at @s run function bingo:team/detect_team_40
 execute as @r[team=rose,nbt={Dimension:"minecraft:the_nether"}] at @s run function bingo:team/detect_team_40
