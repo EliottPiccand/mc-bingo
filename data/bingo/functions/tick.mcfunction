@@ -11,6 +11,7 @@ execute as @a[team=vert] run scoreboard players add vert_count calculator 1
 # Lance les detections de chaque bingo taupe
 function bingo:taupe/detect_taupe_00
 execute as @a[scores={spawner_broken=1..},nbt={Dimension:"minecraft:the_nether"},tag=taupe] run function bingo:taupe/detect_taupe_04
+scoreboard players set @a spawner_broken 0
 execute as @a[tag=taupe,scores={cake_eaten=7..}] run function bingo:taupe/detect_taupe_10
 execute as @a[tag=taupe,scores={firework_shot=1..}] run function bingo:taupe/detect_taupe_11
 execute as @a[tag=taupe] run function bingo:taupe/detect_taupe_12
