@@ -1,1 +1,1 @@
-execute at @a[tag=taupe, team=orange] if entity @a[tag=taupe, team=bleu, distance=..30] if entity @a[tag=taupe, team=rose, distance=..30] if entity @a[tag=taupe, team=vert, distance=..30] run advancement grant @a[tag=taupe] only bingo:taupe/taupe_00
+execute at @a[tag=taupe, team=orange] if entity @a[tag=taupe, team=bleu, distance=..10] if entity @a[tag=taupe, team=rose, distance=..10] if entity @a[tag=taupe, team=vert, distance=..10] run advancement grant @a[tag=taupe, gamemode=survival] only bingo:taupe/taupe_00
